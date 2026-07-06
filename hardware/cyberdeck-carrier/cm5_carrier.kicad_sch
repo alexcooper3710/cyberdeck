@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "e6af17a2-3e44-4140-9314-081ca88a76f0")
+  (paper "A3")
+  (title_block
+    (title "cm5_carrier")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "CM5 board-to-board connectors + I/O passthroughs")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

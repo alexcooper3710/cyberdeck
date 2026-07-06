@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "f430bada-9a55-4e30-a991-305327b6ba50")
+  (paper "A3")
+  (title_block
+    (title "power_tree")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "USB-C PD input + all regulators (3V3/1V8/1V2/1V1/2V5/VTT)")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

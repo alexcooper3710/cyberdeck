@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "59a104b8-5c9f-4911-b733-9839f123bcb9")
+  (paper "A3")
+  (title_block
+    (title "peripherals")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "Status LEDs + buttons + PMOD headers + audio DAC")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

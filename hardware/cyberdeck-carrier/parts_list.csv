@@ -1,0 +1,38 @@
+Designator,Part,Description,Package,Quantity,Source,Notes
+U1,Raspberry Pi CM5 8GB Lite,Main host computer,SoM,1,Raspberry Pi,CM5+8GB+0GB+WIFI variant
+U2,LFE5UM-85F-6BG381C,FPGA - ECP5-85F with SerDes,caBGA-381,1,Mouser/Digi-Key,Verify SerDes count if PCIe Gen2
+U3,ASM1184e,PCIe Gen2 1->2 packet switch,QFN-48,1,LCSC,Stock varies
+U4,W25Q128JV,128Mb SPI flash (FPGA bitstream),SOIC-8,1,Digi-Key,Standard part
+U5,CP2102N-A02,USB to UART debug bridge,QFN-28,1,Digi-Key,
+U6,TPS54331,3A buck regulator (5V->3V3),SOIC-8,1,Digi-Key,
+U7,TPS54331,3A buck regulator (5V->1V2 DDR4),SOIC-8,1,Digi-Key,
+U8,TPS54331,3A buck regulator (5V->1V1 VCCINT),SOIC-8,1,Digi-Key,
+U9,AP2112K-1.8,1.8V LDO (VCCAUX),SOT23-5,1,Digi-Key,
+U10,TPS51200,DDR4 VTT terminator,SOIC-8,1,Digi-Key,
+U11,AP2112K-2.5,2.5V LDO (DDR4 VPP),SOT23-5,1,Digi-Key,
+U12,CS4344,Stereo I2S audio DAC,TSSOP-10,1,Digi-Key,Optional for cyberdeck audio
+J1,M.2 M-key 2280,NVMe SSD socket,Through-hole,1,Digi-Key,
+J2,TE 2042205-1,DDR4 SO-DIMM socket (Live),Through-hole,1,Digi-Key,Full PHY wired
+J3,TE 2042205-1,DDR4 SO-DIMM socket (Cart bay 1),Through-hole,1,Digi-Key,SPD I2C only
+J4,TE 2042205-1,DDR4 SO-DIMM socket (Cart bay 2),Through-hole,1,Digi-Key,SPD I2C only
+J5,USB Type-C receptacle,Power input + PD trigger,SMT,1,Digi-Key,GCT USB4085 or equivalent
+J6,Hirose DF40C-100DS-0.4V,CM5 B2B connector 1,SMT,1,Digi-Key,Pair with DF40C-100DP
+J7,Hirose DF40C-100DS-0.4V,CM5 B2B connector 2,SMT,1,Digi-Key,
+J8,HDMI Type A receptacle,Display passthrough,SMT,2,Digi-Key,
+J9,USB-A receptacle,USB passthrough,Through-hole,2,Digi-Key,
+J10,RJ45 magjack,Gigabit Ethernet,Through-hole,1,Digi-Key,HALO HFJ11-1G01E
+J11,2x5 0.1in header,JTAG (FT232H programming),Through-hole,1,Digi-Key,
+J12,2x4 0.1in header,PMOD expansion,Through-hole,2,Digi-Key,
+J13,3.5mm audio jack,Audio out (optional),Through-hole,1,Digi-Key,
+Y1,SiTime SiT8208 50MHz,FPGA system clock,SMT MEMS,1,Digi-Key,
+Y2,Crystal 100MHz LVDS,PCIe REFCLK source,SMT,1,Digi-Key,
+D1,RGB common-anode LED,Live cart status,5mm,1,Digi-Key,
+D2,RGB common-anode LED,Cart bay 1 status,5mm,1,Digi-Key,
+D3,RGB common-anode LED,Cart bay 2 status,5mm,1,Digi-Key,
+SW1,Tactile pushbutton,Reset,6x6mm SMT,1,Digi-Key,
+SW2,Tactile pushbutton,Boot mode,6x6mm SMT,1,Digi-Key,
+SW3,Tactile pushbutton,User button,6x6mm SMT,1,Digi-Key,
+C_DECOUPLE,100nF ceramic 0402,Decoupling cap,0402,100,Digi-Key,Bulk passive
+C_BULK,10uF ceramic 0805,Bulk cap,0805,30,Digi-Key,Bulk passive
+R_PULLUP,4.7k resistor 0402,I2C pullup / general,0402,20,Digi-Key,Bulk passive
+L_FERRITE,Ferrite bead 0603,Power filtering,0603,10,Digi-Key,Bulk passive

@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "1039462a-70d3-42fd-964a-a992d7bf5f3b")
+  (paper "A3")
+  (title_block
+    (title "pcie_switch")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "ASM1184e PCIe Gen2 1->2 switch + M.2 NVMe socket")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

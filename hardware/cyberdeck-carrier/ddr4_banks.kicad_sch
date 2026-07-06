@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "2d5720bc-6cbe-482a-8dac-2d2548c19ad4")
+  (paper "A3")
+  (title_block
+    (title "ddr4_banks")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "3x DDR4 SO-DIMM sockets (1 live + 2 cart bays) + VTT termination")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

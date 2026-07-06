@@ -1,0 +1,19 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "eb804ee9-7219-4f61-93a1-ded99ff33c41")
+  (paper "A3")
+  (title_block
+    (title "fpga_core")
+    (date "")
+    (rev "0.1")
+    (company "")
+    (comment 1 "ECP5-85F + decoupling + JTAG + QSPI flash")
+  )
+  (lib_symbols
+  )
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
